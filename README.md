@@ -1,15 +1,15 @@
 # Omoolen
 
-**Omoolen, 콘택트 렌즈 사용자를 위한 맞춤 렌즈 추천 및 오프라인 픽업 예약 서비스**
+**Omoolen, User-specific lens recommendation & offline pickup, reservation service for contact lens users**
 > **SOPT 28th APPJAM**  
-> **프로젝트 기간: 2021.06.26 ~ 2021.07.17**  
+> **Project Period: 2021.06.26 ~ 2021.07.17**  
 
-## 소개
+## About Our Service 
 <img src ="https://user-images.githubusercontent.com/69136340/126436360-27dd44ca-eaef-400f-b882-1f9fec1f9408.png" width = "800">
 
-## 팀원 소개
+## iOS Team
 
-|   김소연      |    김현규     |   임경진   |
+|  Soyeon Kim      |    Hyunggu Kim    |   Kyoungjin Lim   |
 | :-------------: |:-------------:| :-----:|
 | <img src ="https://user-images.githubusercontent.com/69136340/126435019-6a8735e1-3ab5-4617-ad7e-7af448339e18.png" width ="200"> |   <img src ="https://user-images.githubusercontent.com/69136340/126434954-07f19c00-5fa1-4ff5-8e94-ef7070ab6fb2.png" width = "200"> | <img src ="https://user-images.githubusercontent.com/69136340/126435011-40d06259-0859-4e57-ab7c-18b0499a23fd.png" width = "200"> |
 
@@ -28,50 +28,50 @@
 ### Commit, Issue, PR Convention
 [TeamOmoolen Commit, Issue, PR Convention](https://github.com/TeamOmoolen/TeamOmoolen-iOS/wiki/Commit,-Issue,-PR)
 
-### 시연 영상
+### Service Demo 
 
-- 온보딩
+- Onboarding
 <img src ="https://user-images.githubusercontent.com/69136340/126449511-4693c12e-7108-4fa3-992a-02988353b680.gif" width = "250">
  
-- 홈
+- Home
 <img src ="https://user-images.githubusercontent.com/69136340/126449518-3161e00c-4e75-4f9e-baaa-3ab94845f75a.gif" width = "250">
 
-- 더보기(발견탭)
+- Plus(Discovery Tab)
 <img src ="https://user-images.githubusercontent.com/69136340/126450411-c49bf24b-ad89-44b2-8e92-a486aa01125e.gif" width = "250">
  
-- 검색
+- Search
 <img src ="https://user-images.githubusercontent.com/69136340/126450422-22372018-ff77-4b5b-b891-d63441011351.gif" width = "250">
 
-## 기능 구현
-|    뷰    |    기능     |   담당   |
+## Role Division 
+|    View    |    Feature    |   in charge   |
 | :-------------: |:-------------:| :-----:|
-| 스플래쉬 | 로그인 분기처리 | 김현규  |
-| 로그인 | 소셜 로그인(Apple login) | 김현규 |
-| 온보딩 | 뷰 구현  | 김소연, 김현규, 임경진 |
-| 온보딩 | 온보딩 서버통신  | 김현규 |
-| 홈 |  홈 서버통신  | 김현규 |
-| 홈 | 홈 뷰 | 김소연  |
-| 검색 | 최근검색 뷰 | 임경진  |
-| 검색 | 인기검색어 뷰  | 임경진  |
-| 검색 | 필터검색 뷰  | 김소연  |
-| 검색 | 필터검색 서버통신  | 김소연 |
-| 검색 | 키워드검색 서버통신 | 임경진  |
-| 검색 | 인기검색어 서버통신 | 임경진  |
-| 검색결과 | 검색결과 뷰 | 김현규 |
-| 검색결과 | 검색결과 서버통신 | 김현규 |
-| 제품상세 | 제품상세 뷰  | 김소연 |
-| 제품상세 | 제품상세 서버통신  | 김소연 |
-| 발견탭 | 뷰 | 임경진 |
-| 발견탭 | 정렬 모달창 | 김현규 |
-| 발견탭 | 무한스크롤 | 김소연 |
-| 발견탭(For You) | For You 뷰 | 임경진  |
-| 발견탭(For You) | For You 서버통신 | 김현규  |
-| 발견탭(상황) | 상황 뷰 | 임경진 |
-| 발견탭(상황) | 상황 서버통신 | 김현규 |
-| 발견탭(신제품) | 신제품 뷰 | 임경진 |
-| 발견탭(신제품) | 신제품 서버통신 | 김현규 |
-| 발견탭(계절) | 계절 뷰 | 임경진 |
-| 발견탭(계절) | 계절 서버통신 | 김현규 |
-| 발견탭 소개 | 발견탭 소개 팝업창 | 김현규  |
-| 로딩 화면 | 로딩 뷰 | 김현규 |
+| Splash | Login processing | Hyunggu Kim  |
+| Login | Apple login | Hyunggu Kim |
+| Onboarding | View Implementation  | Soyeon Kim, Hyunggu Kim, Kyoungjin Lim |
+| Onboarding | Onboarding Server Networking | Hyunggu Kim |
+| Home |  Home Server Networking  | Hyunggu Kim |
+| Home | Home View Implementation | Soyeon Kim |
+| Search | Recent Search View | Kyoungjin Lim  |
+| Search | Popular Search View  | Kyoungjin Lim  |
+| Search | Filter Search View  | Soyeon Kim  |
+| Search | Filter Search Server Networking  | Soyeon Kim |
+| Search | Keyword Search Server Networking | Kyoungjin Lim  |
+| Search | Popular Search Server Networking | Kyoungjin Lim  |
+| Search Result | Search Result View | Hyunggu Kim |
+| Search Result | Search Result Server Networking | Hyunggu Kim |
+| Product Detail | Product Detail View  | Soyeon Kim |
+| Product Detail | Product Detail Server Networking  | Soyeon Kim |
+| Discovery Tab | View Implementation | Kyoungjin Lim |
+| Discovery Tab | Sort Modal | Hyunggu Kim |
+| Discovery Tab | Infinite Scroll | Soyeon Kim |
+| Discovery Tab(For You) | For You View | Kyoungjin Lim |
+| Discovery Tab(For You) | For You Server Networking | Hyunggu Kim |
+| Discovery Tab(Situation) | Situation View | Kyoungjin Lim |
+| Discovery Tab(Situation) | Situation View Server Networking | Hyunggu Kim |
+| Discovery Tab(NewProduct) | New Product View | Kyoungjin Lim |
+| Discovery Tab(NewProduct) | New Product Server Networking | Hyunggu Kim |
+| Discovery Tab(Season) | Season View | Kyoungjin Lim |
+| Discovery Tab(Season) | Season View Server Networking | Hyunggu Kim|
+| Discovery Tab Intro | Discovery View Intro PopUp | Hyunggu Kim |
+| Loading View | Loading View | Hyunggu Kim |
 
